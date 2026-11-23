@@ -106,7 +106,7 @@
       "datasets": [
         "prvsiyan/casmi26-ranker-features",
         "prvsiyan/casmi26-fp-models",
-        "aidensong123/casmi26-offline-rdkit-2026033",
+        "metric/rdkit-2026-3-3-wheel",
         "prvsiyan/chebi-lipidmaps-casmi26",
         "prvsiyan/coconut-casmi26-candidates"
       ],
