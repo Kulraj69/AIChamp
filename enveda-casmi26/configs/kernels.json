@@ -1,0 +1,360 @@
+{
+  "competition": "enveda-CASMI26-molecule-id-mass-spectra",
+  "kernels": {
+    "cpu-baseline-v17": {
+      "notebook": "notebooks/haideptry-v17.ipynb",
+      "slug": "enveda-casmi26-cpu-baseline-v17",
+      "title": "Enveda CASMI26 CPU Baseline V17",
+      "gpu": false,
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "chemistry",
+        "biology"
+      ],
+      "datasets": [
+        "prvsiyan/casmi26-ranker-features",
+        "prvsiyan/casmi26-fp-models-v2",
+        "aidensong123/casmi26-offline-rdkit-2026033",
+        "prvsiyan/chebi-lipidmaps-casmi26",
+        "prvsiyan/coconut-casmi26-candidates",
+        "thedevastator/open-source-natural-product-annotations"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/haideptry/enveda-casmi-2026-fast-spectral-cosine-baseline"
+    },
+    "kozykappa-e180x-npx": {
+      "notebook": "notebooks/kozykappa-e180x-npx.ipynb",
+      "slug": "enveda-casmi26-kozykappa-e180x-npx",
+      "title": "Enveda CASMI26 Kozykappa E180X NPX",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "source_notebook": "https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx"
+    },
+    "kozykappa-npx-apint": {
+      "notebook": "notebooks/kozykappa-npx-apint.ipynb",
+      "slug": "enveda-casmi26-kozykappa-npx-apint",
+      "title": "Enveda CASMI26 Kozykappa NPX APINT",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "source_notebook": "https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx"
+    },
+    "lb-0501-clone": {
+      "notebook": "notebooks/goodpjw-lb-0501.ipynb",
+      "slug": "enveda-casmi26-lb-0501-clone",
+      "title": "Enveda CASMI26 LB 0501 Clone",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "source_notebook": "https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-498"
+    },
+    "goodpjw-ahmed": {
+      "notebook": "notebooks/goodpjw-ahmed.ipynb",
+      "slug": "enveda-casmi26-goodpjw-ahmedlong-kulraj",
+      "title": "Enveda CASMI26 GoodPJW AhmedLong kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-501"
+    },
+    "exp330-master": {
+      "notebook": "notebooks/exp330-master.ipynb",
+      "slug": "enveda-casmi26-exp330-master",
+      "title": "Enveda CASMI26 Exp330 Master",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
+    },
+    "exp330-npx": {
+      "notebook": "notebooks/exp330-npx.ipynb",
+      "slug": "enveda-casmi26-exp330-npx",
+      "title": "Enveda CASMI26 Exp330 NPX",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
+    },
+    "exp330-npx-ahmed": {
+      "notebook": "notebooks/exp330-npx-ahmed.ipynb",
+      "slug": "enveda-casmi26-exp330-npx-ahmedlong-kulraj",
+      "title": "Enveda CASMI26 Exp330 NPX AhmedLong kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
+    },
+    "beraterolelk-0336": {
+      "notebook": "notebooks/beraterolelk-0336.ipynb",
+      "slug": "enveda-casmi26-beraterolelk-0336",
+      "title": "Enveda CASMI26 Beraterolelk 0336",
+      "gpu": false,
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "chemistry"
+      ],
+      "datasets": [
+        "prvsiyan/casmi26-ranker-features",
+        "prvsiyan/casmi26-fp-models",
+        "metric/rdkit-2026-3-3-wheel",
+        "prvsiyan/chebi-lipidmaps-casmi26",
+        "prvsiyan/coconut-casmi26-candidates"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/beraterolelk/0-336-sota-enveda-casmi26-analog-ranker"
+    },
+    "exp330-npx-ahmed-w065": {
+      "notebook": "notebooks/exp330-npx-ahmed-w065.ipynb",
+      "slug": "enveda-casmi26-exp330-npx-ahmedlong-w065-kulraj",
+      "title": "Enveda CASMI26 Exp330 NPX AhmedLong W065 kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
+    },
+    "goodpjw-ahmed-w065": {
+      "notebook": "notebooks/goodpjw-ahmed-w065.ipynb",
+      "slug": "enveda-casmi26-goodpjw-ahmedlong-w065-kulraj",
+      "title": "Enveda CASMI26 GoodPJW AhmedLong W065 kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-501"
+    },
+    "goodpjw-ahmed-w075": {
+      "notebook": "notebooks/goodpjw-ahmed-w075.ipynb",
+      "slug": "enveda-casmi26-goodpjw-ahmedlong-w075-kulraj",
+      "title": "Enveda CASMI26 GoodPJW AhmedLong W075 kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-501"
+    },
+    "exp330-npx-ahmed-w075": {
+      "notebook": "notebooks/exp330-npx-ahmed-w075.ipynb",
+      "slug": "enveda-casmi26-exp330-npx-ahmedlong-w075-kulraj",
+      "title": "Enveda CASMI26 Exp330 NPX AhmedLong W075 kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
+    }
+  }
+}

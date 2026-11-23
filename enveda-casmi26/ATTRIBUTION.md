@@ -1,0 +1,17 @@
+# Enveda CASMI26 attribution
+
+- CPU baseline notebook is derived from haideptry's public Kaggle notebook `enveda-casmi-2026-fast-spectral-cosine-baseline` (V17). Source: https://www.kaggle.com/code/haideptry/enveda-casmi-2026-fast-spectral-cosine-baseline
+- GPU candidate notebook is derived from kozykappa's public Kaggle notebook `casmi26-0501-0502-e180x-npx`. Source: https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx
+- Hybrid GPU candidate `kozykappa-npx-apint.ipynb` keeps kozykappa's NPX/E180X tail and replaces its APRIOR cell with adityaraj0612's exp330 intensity-APRIOR cell. Sources: https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx and https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master
+- GPU candidate notebook `goodpjw-lb-0501.ipynb` is derived from goodpjw2008's public Kaggle notebook `enveda-casmi-stack-aprior-uniq-lb-0-501`. Source: https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-501
+- GPU candidate notebook `goodpjw-ahmed.ipynb` keeps that stack but points the neural-scorer ensemble slot at ahmedberatozer's longer-trained `casmi26-spectrum-model-long` checkpoint. Sources: https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-501 and https://www.kaggle.com/datasets/ahmedberatozer/casmi26-spectrum-model-long
+- GPU candidate notebook `exp330-master.ipynb` is derived from adityaraj0612's public Kaggle notebook `casmi26-exp330-sovereign-0505-apex-master`. Source: https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master
+- Hybrid GPU candidate `exp330-npx.ipynb` adds kozykappa's NPX natural-product-likeness cell to adityaraj0612's exp330 stack. Sources: https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master and https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx
+- Hybrid GPU candidate `exp330-npx-ahmed.ipynb` uses adityaraj0612's exp330 stack plus kozykappa's NPX cell, with the neural-scorer ensemble slot pointed at ahmedberatozer's longer-trained `casmi26-spectrum-model-long` checkpoint. Sources: https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master, https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx, and https://www.kaggle.com/datasets/ahmedberatozer/casmi26-spectrum-model-long
+- Variant `exp330-npx-ahmed-w065.ipynb` is the same candidate with the public/ours neural-ensemble weight shifted from 0.50/0.50 to 0.35/0.65 toward the longer-trained scorer.
+- Variant `exp330-npx-ahmed-w075.ipynb` shifts the exp330/NPX/AhmedLong neural-ensemble weight further to 0.25/0.75 toward the longer-trained scorer.
+- Variant `goodpjw-ahmed-w065.ipynb` applies the same 0.35/0.65 neural-ensemble weight shift to the goodpjw LB-0.501 stack with the longer-trained scorer.
+- Variant `goodpjw-ahmed-w075.ipynb` shifts the goodpjw/AhmedLong neural-ensemble weight further to 0.25/0.75 toward the longer-trained scorer.
+- CPU candidate notebook `beraterolelk-0336.ipynb` is derived from beraterolelk's public Kaggle notebook `0-336-sota-enveda-casmi26-analog-ranker`. Source: https://www.kaggle.com/code/beraterolelk/0-336-sota-enveda-casmi26-analog-ranker
+- Both depend on public Kaggle datasets/kernel outputs listed in `configs/kernels.json`. Competition data is used only for this non-commercial Kaggle competition; no competition data is redistributed here.
+- I did not find separate license files in the fetched notebook metadata; Kaggle's notebook terms and each dataset's own license remain in force.
