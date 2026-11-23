@@ -97,7 +97,7 @@
     },
     "goodpjw-ahmed": {
       "notebook": "notebooks/goodpjw-ahmed.ipynb",
-      "slug": "enveda-casmi26-goodpjw-ahmed",
+      "slug": "enveda-casmi26-goodpjw-ahmedlong-kulraj",
       "title": "Enveda CASMI26 GoodPJW AhmedLong kulraj",
       "gpu": true,
       "machine_shape": "NvidiaTeslaT4",
@@ -173,7 +173,7 @@
     },
     "exp330-npx-ahmed": {
       "notebook": "notebooks/exp330-npx-ahmed.ipynb",
-      "slug": "enveda-casmi26-exp330-npx-ahmed",
+      "slug": "enveda-casmi26-exp330-npx-ahmedlong-kulraj",
       "title": "Enveda CASMI26 Exp330 NPX AhmedLong kulraj",
       "gpu": true,
       "machine_shape": "NvidiaTeslaT4",
