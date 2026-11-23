@@ -94,6 +94,24 @@
       ],
       "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
       "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
+    },
+    "beraterolelk-0336": {
+      "notebook": "notebooks/beraterolelk-0336.ipynb",
+      "slug": "enveda-casmi26-beraterolelk-0336",
+      "title": "Enveda CASMI26 Beraterolelk 0336",
+      "gpu": false,
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": ["chemistry"],
+      "datasets": [
+        "prvsiyan/casmi26-ranker-features",
+        "prvsiyan/casmi26-fp-models",
+        "aidensong123/casmi26-offline-rdkit-2026033",
+        "prvsiyan/chebi-lipidmaps-casmi26",
+        "prvsiyan/coconut-casmi26-candidates"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/beraterolelk/0-336-sota-enveda-casmi26-analog-ranker"
     }
   }
 }
