@@ -69,6 +69,31 @@
       ],
       "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
       "source_notebook": "https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-498"
+    },
+    "exp330-master": {
+      "notebook": "notebooks/exp330-master.ipynb",
+      "slug": "enveda-casmi26-exp330-master",
+      "title": "Enveda CASMI26 Exp330 Master",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": ["gpu"],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
     }
   }
 }
