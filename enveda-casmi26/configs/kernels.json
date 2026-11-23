@@ -8,7 +8,10 @@
       "gpu": false,
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["chemistry", "biology"],
+      "categories": [
+        "chemistry",
+        "biology"
+      ],
       "datasets": [
         "prvsiyan/casmi26-ranker-features",
         "prvsiyan/casmi26-fp-models-v2",
@@ -28,7 +31,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -42,7 +47,9 @@
         "sanpier/catalogue-experiment-saner",
         "metric/rdkit-2026-3-3-wheel"
       ],
-      "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
       "source_notebook": "https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx"
     },
     "kozykappa-npx-apint": {
@@ -53,7 +60,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -67,7 +76,9 @@
         "sanpier/catalogue-experiment-saner",
         "metric/rdkit-2026-3-3-wheel"
       ],
-      "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
       "source_notebook": "https://www.kaggle.com/code/kozykappa/casmi26-0501-0502-e180x-npx"
     },
     "lb-0501-clone": {
@@ -78,7 +89,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -92,7 +105,9 @@
         "sanpier/catalogue-experiment-saner",
         "metric/rdkit-2026-3-3-wheel"
       ],
-      "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
       "source_notebook": "https://www.kaggle.com/code/goodpjw2008/enveda-casmi-stack-aprior-uniq-lb-0-498"
     },
     "goodpjw-ahmed": {
@@ -103,7 +118,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -129,7 +146,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -143,7 +162,9 @@
         "sanpier/catalogue-experiment-saner",
         "metric/rdkit-2026-3-3-wheel"
       ],
-      "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
       "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
     },
     "exp330-npx": {
@@ -154,7 +175,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -168,7 +191,9 @@
         "sanpier/catalogue-experiment-saner",
         "metric/rdkit-2026-3-3-wheel"
       ],
-      "kernel_sources": ["popwenman/casmi26-scorer-train-v80"],
+      "kernel_sources": [
+        "popwenman/casmi26-scorer-train-v80"
+      ],
       "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
     },
     "exp330-npx-ahmed": {
@@ -179,7 +204,9 @@
       "machine_shape": "NvidiaTeslaT4",
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["gpu"],
+      "categories": [
+        "gpu"
+      ],
       "datasets": [
         "samartalwar/casmi-2026-spectral-library-massbankharmonized",
         "sanpier/casmi-spectrum-model-v1",
@@ -204,7 +231,9 @@
       "gpu": false,
       "private": true,
       "timeout_seconds": 32400,
-      "categories": ["chemistry"],
+      "categories": [
+        "chemistry"
+      ],
       "datasets": [
         "prvsiyan/casmi26-ranker-features",
         "prvsiyan/casmi26-fp-models",
@@ -214,6 +243,34 @@
       ],
       "kernel_sources": [],
       "source_notebook": "https://www.kaggle.com/code/beraterolelk/0-336-sota-enveda-casmi26-analog-ranker"
+    },
+    "exp330-npx-ahmed-w065": {
+      "notebook": "notebooks/exp330-npx-ahmed-w065.ipynb",
+      "slug": "enveda-casmi26-exp330-npx-ahmedlong-w065-kulraj",
+      "title": "Enveda CASMI26 Exp330 NPX AhmedLong W065 kulraj",
+      "gpu": true,
+      "machine_shape": "NvidiaTeslaT4",
+      "private": true,
+      "timeout_seconds": 32400,
+      "categories": [
+        "gpu"
+      ],
+      "datasets": [
+        "samartalwar/casmi-2026-spectral-library-massbankharmonized",
+        "sanpier/casmi-spectrum-model-v1",
+        "ahmedberatozer/casmi26-spectrum-model-long",
+        "taeyangg4/casmi26-extlib-gnps-full",
+        "dmitriigluzdov/casmi26-fold-safe-fpnet",
+        "taeyangg4/casmi26-fr3to25-clean",
+        "dmitriigluzdov/casmi26-natural-product-knowledge-table",
+        "dmitriigluzdov/casmi26-natural-product-panel-benchmark",
+        "dmitriigluzdov/casmi26-pubchem-popularity-prior",
+        "dmitriigluzdov/casmi26-attributed-v4g-reproduction-assets",
+        "sanpier/catalogue-experiment-saner",
+        "metric/rdkit-2026-3-3-wheel"
+      ],
+      "kernel_sources": [],
+      "source_notebook": "https://www.kaggle.com/code/adityaraj0612/casmi26-exp330-sovereign-0505-apex-master"
     }
   }
 }
