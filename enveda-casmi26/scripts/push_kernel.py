@@ -27,7 +27,7 @@ def sanitize_notebook(path: Path) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("kernel", choices=["cpu-baseline-v17", "kozykappa-e180x-npx", "lb-0501-clone", "exp330-master", "beraterolelk-0336"])
+    ap.add_argument("kernel", choices=["cpu-baseline-v17", "kozykappa-e180x-npx", "kozykappa-npx-apint", "lb-0501-clone", "exp330-master", "beraterolelk-0336"])
     ap.add_argument("--run", action="store_true", help="SAVE_AND_RUN_ALL instead of QUICK_SAVE")
     args = ap.parse_args()
 
